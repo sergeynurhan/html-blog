@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Կապ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Գլխավոր</a></li>
+                <li><a href="about.html">Մեր Մասին</a></li>
+                <li><a href="contact.html" class="active">Կապ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Կապվեք մեզ հետ</h2>
+            <form>
+                <label for="name">Անուն Ազգանուն:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="phone">Հեռախոսահամար:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="email">Էլ․ հասցե:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="age">Տարիք:</label>
+                <input type="number" id="age" name="age" required>
+                
+                <label for="gender">Սեռ:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Ընտրեք սեռը</option>
+                    <option value="male">Արական</option>
+                    <option value="female">Իգական</option>
+                </select>
+                
+                <label for="message">Հաղորդագրություն:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Հաստատել</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Բոլոր իրավունքները պաշտպանված են։</p>
+    </footer>
+</body>
+</html>
