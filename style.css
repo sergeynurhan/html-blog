@@ -147,7 +147,7 @@ footer {
 }
 
 .contact textarea {
-    resize: vertical;
+    resize: none;
 }
 
 .contact button {
